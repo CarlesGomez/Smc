@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#E4F1FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the day"
+        android:id="@+id/tvDatepicker"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:textIsSelectable="false" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/search_circuit_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFF"
+        android:text="@string/demo_collection"
+        android:background="#33b5e5"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="10dp" />
+</LinearLayout>

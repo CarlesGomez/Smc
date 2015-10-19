@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffd5e8ff"
+        android:weightSum="7"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="14:00"
+            android:id="@+id/tvTime"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="On"
+            android:id="@+id/tvState"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10"
+            android:id="@+id/tvVibration"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="99%"
+            android:id="@+id/tvBattery"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="120"
+            android:id="@+id/tvVelocity"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10"
+            android:id="@+id/tvAcceleration"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10"
+            android:id="@+id/tvBrake"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#909090"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffd5e8ff"
+        android:weightSum="7"
+        android:gravity="center_vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivTime"
+            android:background="@drawable/ic_clock"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivState"
+            android:background="@drawable/ic_state"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivVibration"
+            android:background="@drawable/ic_vibration"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivBattery"
+            android:background="@drawable/ic_battery"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivVelocity"
+            android:background="@drawable/ic_speed"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivAcceleration"
+            android:background="@drawable/ic_acceleration"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivBrake"
+            android:background="@drawable/ic_brake"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/circuitListView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="9"/>
+</LinearLayout>
