@@ -3,7 +3,7 @@ Smart moto challenge IoT is a solution to make the interaction between an electr
 
 ## How it works
 
-An arduino with a [Bluefruit LE](https://www.adafruit.com/products/1697) connected to the switchboard of the motorcycle to track the desired data like: speed, brake, acceleration, vibration, etc. And it connects to an android decive. Then the app sends the data to a database to show it on a web (to make a live map of your tour) and on the application itself. The tour ends when you stop the motorcycle.
+An arduino with a [Bluefruit LE](https://www.adafruit.com/products/1697) connected to the switchboard of the motorcycle to track the desired data like: speed, brake, acceleration, vibration, etc. And it connects to an android device. Then the app sends the data to a database to show it on a web (to make a live map of your tour) and on the application itself. The tour ends when you stop the motorcycle.
  
 ## Demo case for Smart moto challenge competition 2015
 You can download the android application to your device with android 4.3+ OS installed and bluetooth 4.0 compatibility.
